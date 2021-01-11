@@ -50,6 +50,12 @@
 	border-bottom-right-radius: 10px;
 }
 
+.sidebar_stats > img {
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: inset -5px 5px 10px rgb(122, 122, 122), inset 5px -5px 10px white,
+		2px 2px 5px rgb(170, 170, 170);
+}
 .sidebar_top > h4 {
 	font-size: 12px;
 	color: gray;
