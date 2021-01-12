@@ -10,6 +10,7 @@ import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
 import Post from "./Post.js";
 import {db} from "./firebase";
 import firebase from "firebase";
+import FlipMove from "react-flip-move";
 
 function Feed() {
     const [input, setInput] = useState([]);
@@ -54,15 +55,17 @@ function Feed() {
                     <InputOption Icon={CalendarViewDayIcon} title="Write article" color="#7fc15e"/>
                 </div>
             </div>
-            <Post name="Tanja BD" description="This is a PINNED post" message="Welcome to my personal LinkedIn" />
+            <FlipMove>
+            <Post name="Tanja BD" description="This is a PINNED post" message="Welcome to my personal LinkedIn"  />
             {posts.map(({ id, data:{ name, description, message, photoUrl}}) => (
                 <Post
                 key={id}
                 name={name}
+                description={description}
                 message={message}
                 photoUrl={photoUrl} />
             ))}
-           
+           </FlipMove>
         </div>
     )
 }

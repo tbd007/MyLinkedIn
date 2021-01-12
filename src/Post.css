@@ -17,11 +17,13 @@
 
 .post_info {
 	margin-left: 10px;
+	margin-top: 5px;
 }
 
 .post_info > p {
 	font-size: 12px;
 	color: gray;
+	line-height: 0.9;
 }
 
 .post_info > h2 {
@@ -31,4 +33,21 @@
 .post_buttons {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.avatar {
+	height: 45px;
+	width: 45px;
+	border-radius: 90px;
+	margin-top: -20px;
+}
+
+.publicicon {
+	width: 13px !important;
+	margin-left: 3px;
+}
+
+.post_info > p {
+	display: flex;
+	align-items: center;
 }

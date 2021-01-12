@@ -1,20 +1,25 @@
-import React from 'react';
+import React , { forwardRef} from 'react';
 import "./Post.css";
-import { Avatar} from "@material-ui/core";
 import InputOption from "./InputOption";
 import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined";
 import ChatOutlinedIcon from "@material-ui/icons/ChatOutlined";
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
+import PublicIcon from '@material-ui/icons/Public';
 
-function Post({name, description, message, photoUrl}) {
+const Post = forwardRef ( ({name, description, message, photoUrl}, ref) => {
+    var today =  "babicdebrosse@outlook.de"
+
     return (
-        <div className="post">
+        <div ref={ref} className="post">
           <div className="post_header">
-              <Avatar />
+              <img className="avatar" src="avatar.png"/>
               <div className="post_info">
                   <h2>{name}</h2>
-                  <p>{description}</p>
+                  <p>{today}</p>
+                  <p>just now <PublicIcon className="publicicon"/></p>
+                  <img src={photoUrl}/>
+                  
               </div>
           </div>
 
@@ -30,6 +35,6 @@ function Post({name, description, message, photoUrl}) {
           </div>
         </div>
     )
-}
+})
 
 export default Post

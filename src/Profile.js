@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Profile.css";
-import {Avatar} from "@material-ui/core";
 
-function Sidebar() {
+
+function Profile() {
 
 
     return (
@@ -12,6 +12,7 @@ function Sidebar() {
                 <h2>Tanja Babic-Debrosse</h2>
                 <h4>babicdebrosse@outlook.de</h4>
                 <h4><a href="https://tbddev.com">https://tbddev.com</a></h4>
+                <h4><a href="https://github.com/tbd007">Github TBD</a></h4>
               
             </div>
             <div className="sidebar_stats">
@@ -22,12 +23,12 @@ function Sidebar() {
                <img src="https://www.tbddev.com/assets/iging.jpg" width="100" height="65"/>
                <img src="https://www.tbddev.com/assets/MCDCalc.jpg" width="100" height="65"/>
                <img src="https://www.tbddev.com/assets/mykanban.jpg" width="100" height="65"/>
-               <p><a href="https://tbddev.com/portfolio" >More...</a></p>
+               <p><a href="https://tbddev.com" >More...</a></p>
             </div>
             <div className="sidebar_bottom">
                 <p>Featured</p>
                 <h4>#HTML</h4>
-                <h4>#endregionCSS</h4>
+                <h4>#CSS</h4>
                 <h4>#JavaScript</h4>
                 <h4>#React</h4>
                 <h4>#Node</h4>
@@ -41,5 +42,5 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+export default Profile
 

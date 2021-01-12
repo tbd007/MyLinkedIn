@@ -1,14 +1,10 @@
 .sidebar {
-	top: 80px;
+	top: 40px !important;
 	position: sticky;
 	flex: 0.2;
 	border-radius: 10px;
 	height: fit-content;
 	text-align: center;
-}
-
-.sidebar_avatar {
-	margin-bottom: 10px;
 }
 
 .sidebar_top {
@@ -22,6 +18,7 @@
 	background-color: white;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	margin-top: 20px;
 }
 
 .sidebar_stat {
@@ -77,6 +74,22 @@
 	background-color: white;
 	border-radius: 10px;
 	margin-top: 10px;
+}
+
+.sidebar_bottom > h4 {
+	display: flex;
+	font-size: 14px;
+	color: gray;
+	font-weight: bolder;
+	cursor: pointer;
+	margin-top: 2px;
+	padding: 5px;
+}
+
+.sidebar_bottom > h4:hover {
+	background-color: whitesmoke;
+	cursor: pointer;
+	color: black;
 }
 
 .sidebar_hash {
