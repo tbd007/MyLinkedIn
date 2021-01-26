@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed on Firebase.
+
+## LIVE LINK https://linkedin-83687.web.app
+
+Enter your credentials, your photo url link and click on register now to create an account. 
+Don't forget to log out by clicking on the "me" icon top-right corner! Have fun!
+
 
 ## Available Scripts
 
