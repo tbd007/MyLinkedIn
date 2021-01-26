@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## LIVE LINK https://linkedin-83687.web.app
 
 Enter your credentials, your photo url link and click on register now to create an account. 
-Don't forget to log out by clicking on the "me" icon top-right corner! Have fun!
+Don't forget to log out by clicking on the "me" icon in the top-right corner! Have fun!
 
 
 ## Available Scripts
